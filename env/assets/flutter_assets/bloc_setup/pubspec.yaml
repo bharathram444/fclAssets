@@ -31,7 +31,6 @@ dependencies:
   json_serializable: ^6.8.0
   json_annotation: ^4.9.0
   flutter_bloc: ^8.1.6
-  flutter_launcher_icons: ^0.14.2
 
 dev_dependencies:
   flutter_test:
@@ -40,6 +39,7 @@ dev_dependencies:
   freezed: ^2.5.2
   build_runner: ^2.4.8  
   injectable_generator: ^2.6.1
+  flutter_launcher_icons: ^0.14.2
 
 flutter:
   assets: 
