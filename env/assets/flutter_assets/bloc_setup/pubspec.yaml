@@ -31,6 +31,7 @@ dependencies:
   json_serializable: ^6.8.0
   json_annotation: ^4.9.0
   flutter_bloc: ^8.1.6
+  flutter_launcher_icons: ^0.14.2
 
 dev_dependencies:
   flutter_test:
@@ -48,10 +49,10 @@ flutter:
   uses-material-design: true
 
 flutter_launcher_icons: 
-  android: 'ic_launcher'
-  image_path: 'assets/logo/logo.png'
-  ios: false
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo/logo.png"
   min_sdk_android: 21
-  macos: 
-    generate: true
-    image_path: 'assets/logo/logo.png'
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/logo/logo.png"

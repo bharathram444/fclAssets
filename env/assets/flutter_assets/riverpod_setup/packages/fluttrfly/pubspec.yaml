@@ -34,11 +34,3 @@ dev_dependencies:
   build_runner: ^2.4.10
   freezed: ^2.5.2
   injectable_generator: ^2.6.1
-
-
-flutter:
-  assets: 
-    - assets/
-    - assets/svg/
-    - assets/png/
-  uses-material-design: true
